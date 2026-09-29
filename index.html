@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FBF6F1">
+<title>Tendance by Souka — Elegance &amp; creativity, chosen with care | Kénitra</title>
+<meta name="description" content="Tendance by Souka is a curated women's fashion boutique in Kénitra, Morocco. Dresses, sets, shoes and bags — selected with an eye for style. Worldwide delivery, personal styling advice by DM.">
+<meta property="og:title" content="Tendance by Souka — Curated women's fashion, Kénitra">
+<meta property="og:description" content="Élégance & créativité, choisies avec soin. Curated dresses, sets, shoes & bags with worldwide delivery and personal styling advice.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%236E1E2E'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' font-style='italic' fill='%23FBF6F1' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================== NAVBAR ============================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html" aria-label="Tendance by Souka — home">
+      <span class="brand__mark" aria-hidden="true">T</span>
+      <span class="brand__txt"><b>Tendance</b><i>by Souka</i></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html" aria-current="page"><small>01</small>Home</a>
+      <a href="shop.html"><small>02</small>Shop</a>
+      <a href="about.html"><small>03</small>About</a>
+      <a href="contact.html"><small>04</small>Contact</a>
+      <a class="nav__cta" href="https://wa.me/212627222047?text=Bonjour%20Souka%20%F0%9F%8C%B8%20je%20souhaite%20un%20conseil%20styling" target="_blank" rel="noopener">Book a styling</a>
+      <div class="nav__foot">
+        Kénitra, Maroc · Worldwide delivery
+        <a href="tel:+212627222047">+212 627 222 047</a>
+      </div>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="iconbtn" id="cartBtn" type="button" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1.1 11.2a1.6 1.6 0 0 1-1.6 1.4H8.7a1.6 1.6 0 0 1-1.6-1.4L6 8z"/><path d="M9.2 8V6.4A2.8 2.8 0 0 1 12 3.6a2.8 2.8 0 0 1 2.8 2.8V8"/></svg>
+        <span class="badge" id="cartBadge">0</span>
+      </button>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <span class="nav__progress" aria-hidden="true"></span>
+  </div>
+</header>
+<div class="scrim" id="menuScrim"></div>
+
+<main>
+
+<!-- ================================ HERO ================================ -->
+<section class="hero" id="home">
+  <div class="hero__bg" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+    <span class="grain"></span>
+  </div>
+
+  <div class="hero__stage">
+    <figure class="arch arch--lg ph" data-mono="Tendance">
+      <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80"
+           alt="Editorial fashion portrait — a piece from the Tendance by Souka collection" fetchpriority="high">
+    </figure>
+    <span class="chip chip--a" aria-hidden="true"><i></i>New in · Season 24</span>
+    <span class="chip chip--b" aria-hidden="true">Kénitra · Maroc</span>
+    <span class="chip chip--c" aria-hidden="true">7.6K community</span>
+  </div>
+
+  <div class="hero__inner">
+    <p class="eyebrow hero__eyebrow">Boutique — Kénitra, Maroc</p>
+
+    <h1 class="h1">
+      <span class="word">Tendance</span>
+      <span class="word"><em>by Souka</em></span>
+    </h1>
+
+    <p class="hero__tag">Élégance &amp; créativité, choisies avec soin. A curated wardrobe, picked piece by piece by Soukaina.</p>
+
+    <div class="hero__cta">
+      <a class="btn" href="shop.html">
+        Discover the collection
+        <svg class="btn__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn btn--ghost" href="https://wa.me/212627222047?text=Bonjour%20Souka%20%F0%9F%8C%B8%20un%20conseil%20styling%20s%27il%20vous%20pla%C3%AEt" target="_blank" rel="noopener">Get styling advice</a>
+    </div>
+
+    <div class="hero__meta">
+      <span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6-5.4-2.8-5.4 2.8 1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+        4.5 · 6 reviews
+      </span>
+      <span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg>
+        Worldwide delivery
+      </span>
+    </div>
+  </div>
+
+  <a class="scrollcue" href="#categories" aria-hidden="true" tabindex="-1"><span>Scroll</span><i></i></a>
+</section>
+
+<!-- ============================== TICKER ============================== -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>Curated with care</span><span>Worldwide delivery</span><span>Personal styling advice available</span>
+    <span>Curated with care</span><span>Worldwide delivery</span><span>Personal styling advice available</span>
+  </div>
+</div>
+<p class="sr-only">Curated with care · Worldwide delivery · Personal styling advice available</p>
+
+<!-- ============================ CATEGORIES ============================ -->
+<section class="section" id="categories">
+  <div class="container">
+    <div class="sec-head">
+      <p class="eyebrow" data-reveal="up">Shop by category</p>
+      <div class="sec-head__row">
+        <h2 class="h2" data-reveal="up" style="--d:80ms">Four rails,<br><em>one eye.</em></h2>
+        <a class="tlink" href="shop.html" data-reveal="up" style="--d:160ms">
+          All pieces
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="cats" data-stagger>
+      <a class="cat" href="shop.html?cat=dresses">
+        <div class="cat__media ph" data-mono="Robes">
+          <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80" alt="Dresses" loading="lazy">
+        </div>
+        <span class="cat__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+        <div class="cat__body"><small>08 pieces</small><h3>Dresses</h3></div>
+      </a>
+
+      <a class="cat" href="shop.html?cat=sets">
+        <div class="cat__media ph" data-mono="Ensembles">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80" alt="Sets and co-ords" loading="lazy">
+        </div>
+        <span class="cat__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+        <div class="cat__body"><small>04 pieces</small><h3>Sets &amp; Co-ords</h3></div>
+      </a>
+
+      <a class="cat" href="shop.html?cat=shoes">
+        <div class="cat__media ph" data-mono="Chaussures">
+          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80" alt="Shoes" loading="lazy">
+        </div>
+        <span class="cat__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+        <div class="cat__body"><small>05 pieces</small><h3>Shoes</h3></div>
+      </a>
+
+      <a class="cat" href="shop.html?cat=bags">
+        <div class="cat__media ph" data-mono="Sacs">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80" alt="Bags and accessories" loading="lazy">
+        </div>
+        <span class="cat__go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+        <div class="cat__body"><small>04 pieces</small><h3>Bags &amp; Accessories</h3></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== THIS SEASON'S PIECES ======================== -->
+<section class="section section--alt" id="collection">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-head__row">
+        <div>
+          <p class="eyebrow" data-reveal="up">This season's collection</p>
+          <h2 class="h2" data-reveal="up" style="--d:80ms">Pieces worth<br><em>keeping.</em></h2>
+        </div>
+        <a class="tlink" href="shop.html" data-reveal="up" style="--d:160ms">
+          See everything
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <p class="lede" data-reveal="up" style="--d:200ms">A tight edit — only what we'd wear ourselves. Tap any piece to choose a size and add it straight to your order. <span style="color:var(--burgundy);font-weight:700">Swipe →</span></p>
+    </div>
+
+    <!-- products injected by script.js from data.js -->
+    <div class="rail" id="featuredRail" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ========================= PERSONAL STYLING ========================= -->
+<section class="section" id="styling">
+  <div class="container">
+    <div class="styling" data-reveal="scale">
+      <span class="grain" aria-hidden="true"></span>
+
+      <div class="styling__copy">
+        <p class="eyebrow">The atelier service</p>
+        <h2 class="h3">Personal styling,<br>quietly by DM.</h2>
+        <p class="styling__txt">Not sure what suits you, or looking for something specific for a wedding, a shoot, or a gift? Send Soukaina a message. She'll suggest pieces from the collection — or hunt something down for you — with total discretion.</p>
+
+        <ul class="styling__list">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> One-to-one advice, no pressure and no obligation</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> Sizing, fit and colour guidance for your body</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> Complete looks styled head-to-toe</li>
+        </ul>
+
+        <div class="styling__actions">
+          <a class="btn btn--wa" href="https://wa.me/212627222047?text=Bonjour%20Souka%20%F0%9F%8C%B8%20j%27aimerais%20un%20conseil%20styling%20personnalis%C3%A9" target="_blank" rel="noopener">
+            <svg class="btn__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/><path d="M8.6 9.2c.3 1.9 2.4 4 4.4 4.4l1-1.2 1.7.9a4.6 4.6 0 0 1-2.6 1.1"/></svg>
+            Get styling advice on WhatsApp
+          </a>
+          <a class="btn btn--light" href="contact.html">Visit the boutique</a>
+        </div>
+      </div>
+
+      <div class="styling__visual" aria-hidden="true">
+        <figure class="ph" data-mono="Look 01">
+          <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=500&q=80" alt="" loading="lazy">
+        </figure>
+        <figure class="ph" data-mono="Look 02">
+          <img src="https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=500&q=80" alt="" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= WHY US ============================= -->
+<section class="section section--blush" id="why">
+  <div class="container">
+    <div class="sec-head tc">
+      <p class="eyebrow eyebrow--center" data-reveal="up">Why the boutique</p>
+      <h2 class="h2" data-reveal="up" style="--d:80ms">Small shop,<br><em>high standards.</em></h2>
+    </div>
+
+    <div class="why" data-stagger>
+      <article class="why__item">
+        <div class="why__ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Chosen with an eye</h3>
+        <p>Every piece is hand-picked. Nothing arrives on the rail by accident.</p>
+      </article>
+      <article class="why__item">
+        <div class="why__ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg></div>
+        <h3>Worldwide delivery</h3>
+        <p>Morocco or anywhere in the world — your order is packed with care and tracked.</p>
+      </article>
+      <article class="why__item">
+        <div class="why__ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/></svg></div>
+        <h3>Personal advice</h3>
+        <p>Real recommendations from Soukaina herself, before and after you buy.</p>
+      </article>
+      <article class="why__item">
+        <div class="why__ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 7.6 4 4 0 0 1 19 10.6C19 15.4 12 20 12 20z"/><path d="M12 7.6V20"/></svg></div>
+        <h3>A trusted community</h3>
+        <p>7.6K+ women follow the shop and keep coming back for the selection.</p>
+      </article>
+    </div>
+
+    <div class="stats" data-stagger>
+      <div class="stat"><b><span data-count="7.6" data-dec="1">7.6</span>K+</b><span>Community</span></div>
+      <div class="stat"><b><span data-count="4.5" data-dec="1">4.5</span> ★</b><span>Rated by clients</span></div>
+      <div class="stat"><b>100%</b><span>Hand-picked</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== TESTIMONIALS =========================== -->
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-head__row">
+        <div>
+          <p class="eyebrow" data-reveal="up">In their words</p>
+          <h2 class="h2" data-reveal="up" style="--d:80ms">Loved by<br><em>the women who wear it.</em></h2>
+        </div>
+        <div class="rating-badge" data-reveal="up" style="--d:160ms">
+          <b>4.5</b>
+          <span class="stars stars--lg" data-stars="4.5" role="img" aria-label="Rated 4.5 out of 5 from 6 reviews">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          </span>
+          <span>6 Google reviews</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews" data-stagger>
+      <article class="review">
+        <p class="review__quote">Soukaina really takes the time to advise you. I found the perfect dress for a wedding — and she even helped with the shoes.</p>
+        <div class="review__who">
+          <span class="review__av" aria-hidden="true">S</span>
+          <span class="review__meta">
+            <b>Salma B.</b>
+            <span>Bought a dress &amp; heels · Kénitra</span>
+          </span>
+        </div>
+        <div class="stars" data-stars="5" style="margin-top:14px" role="img" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+        </div>
+      </article>
+
+      <article class="review">
+        <p class="review__quote">A genuinely beautiful selection — pieces you don't see everywhere. Ordering by DM was discreet and so easy.</p>
+        <div class="review__who">
+          <span class="review__av" aria-hidden="true">I</span>
+          <span class="review__meta">
+            <b>Imane K.</b>
+            <span>Ordered a co-ord set · delivered abroad</span>
+          </span>
+        </div>
+        <div class="stars" data-stars="4" style="margin-top:14px" role="img" aria-label="4 out of 5 stars">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6L12 16.9 6.6 19.7l1-6L3.2 9.4l6.1-.9L12 3z"/></svg>
+        </div>
+      </article>
+    </div>
+
+    <p class="tc mt-32" data-reveal="up">
+      <a class="tlink" href="https://www.google.com/maps/search/?api=1&amp;query=Tendance+by+Souka+Kenitra" target="_blank" rel="noopener">
+        Read all reviews
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- ============================== CTA BAND ============================== -->
+<section class="section section--tight">
+  <div class="container">
+    <div class="tc" data-reveal="up">
+      <p class="eyebrow eyebrow--center">Ready when you are</p>
+      <h2 class="h2 mt-24">Your next favourite piece<br><em>is already here.</em></h2>
+      <div class="hero__cta" style="margin-top:26px">
+        <a class="btn" href="shop.html">Shop the collection <svg class="btn__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <button class="btn btn--ghost" type="button" data-open-cart>View my cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =============================== FOOTER =============================== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer__word" aria-hidden="true">Tendance</p>
+
+    <div class="footer__grid">
+      <div>
+        <h4>Tendance by Souka</h4>
+        <p>A small, carefully-curated women's fashion boutique in Kénitra — and a personal styling service that travels with you, wherever you are.</p>
+        <p style="margin-top:12px;color:var(--blush)">Élégance &amp; créativité, choisies avec soin.</p>
+        <div class="footer__socials">
+          <a class="social" href="https://www.instagram.com/tendance_by_souka/" target="_blank" rel="noopener" aria-label="Instagram — tendance_by_souka">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.3 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .3-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.3-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.3 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-.9 0-1.4.2-1.7.3-.4.2-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.8-.3 1.7-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c0 .9.2 1.4.3 1.7.2.4.3.7.6 1 .3.3.6.5 1 .6.3.1.8.3 1.7.3 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c.9 0 1.4-.2 1.7-.3.4-.2.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.8.3-1.7.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c0-.9-.2-1.4-.3-1.7-.2-.4-.3-.7-.6-1-.3-.3-.6-.5-1-.6-.3-.1-.8-.3-1.7-.3-1.2-.1-1.6-.1-4.7-.1zm0 3.1a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zm5.2-3.1a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>
+          </a>
+          <a class="social" href="https://wa.me/212627222047" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2zm0 1.9a8.1 8.1 0 0 1 4.3 15 8.1 8.1 0 0 1-8.4.3l-.4-.2-2.6.7.7-2.5-.2-.4A8.1 8.1 0 0 1 12 3.9zm-3 3.7c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3l-1.5-.7c-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.3.1-.4l.5-.5c.1-.1.1-.2.2-.4v-.4l-.7-1.7c-.2-.4-.4-.4-.5-.4z"/></svg>
+          </a>
+          <a class="social" href="https://www.tiktok.com/@tendance_by_souka" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 2h-2.9v12.3a2.5 2.5 0 1 1-2.5-2.5c.2 0 .5 0 .7.1V8.9a5.6 5.6 0 0 0-.7 0 5.5 5.5 0 1 0 5.5 5.5V8.7a6.4 6.4 0 0 0 3.7 1.2V7a3.6 3.6 0 0 1-3.8-3.5V2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <div class="footer__links">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop all pieces</a>
+          <a href="shop.html?cat=dresses">Dresses</a>
+          <a href="shop.html?cat=sets">Sets &amp; co-ords</a>
+          <a href="shop.html?cat=shoes">Shoes</a>
+          <a href="shop.html?cat=bags">Bags &amp; accessories</a>
+          <a href="about.html">About Soukaina</a>
+          <a href="contact.html">Contact &amp; visits</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Visit &amp; contact</h4>
+        <div class="footer__contact">
+          <a href="https://maps.google.com/?q=Avenue+Mohamed+Diouri+K%C3%A9nitra" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            Avenue Mohamed Diouri, Kénitra 14001
+          </a>
+          <a href="tel:+212627222047">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h3.6l1.8 4.5-2.2 1.4a12 12 0 0 0 6.9 6.9l1.4-2.2L21 15.4V19a2 2 0 0 1-2.2 2A16.8 16.8 0 0 1 3 5.2 2 2 0 0 1 5 3z"/></svg>
+            +212 627 222 047
+          </a>
+          <a href="https://www.instagram.com/tendance_by_souka/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.6v.01"/></svg>
+            @tendance_by_souka
+          </a>
+        </div>
+        <form class="signup" data-signup>
+          <input type="email" name="email" placeholder="Email for new arrivals" aria-label="Your email" required>
+          <button type="submit" aria-label="Subscribe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+        <p style="margin-top:10px;font-size:11.5px;opacity:.6">New pieces, first look. No spam — ever.</p>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <span>© <span id="year">2026</span> Tendance by Souka · Kénitra, Maroc</span>
+      <span>Curated with care · Worldwide delivery</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================================ CART ================================ -->
+<div class="scrim" id="cartScrim"></div>
+<aside class="cart" id="cart" role="dialog" aria-modal="true" aria-label="Your cart">
+  <div class="cart__handle" aria-hidden="true"><i></i></div>
+
+  <div class="cart__head">
+    <div class="cart__title">
+      <h2>Your cart</h2>
+      <span id="cartCountLabel"></span>
+    </div>
+    <div style="display:flex;align-items:center;gap:2px">
+      <button class="cart__close" id="cartClear" type="button" style="width:auto;padding:0 10px;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)">Clear</button>
+      <button class="cart__close" type="button" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="cart__ship">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h10v9H3zM13 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg>
+    <div style="flex:1;min-width:0">
+      <span id="shipMsg">Add a piece — free worldwide delivery over <b>800 DH</b>.</span>
+      <div class="cart__shipbar"><i id="shipBar"></i></div>
+    </div>
+  </div>
+
+  <div class="cart__items" id="cartItems"></div>
+
+  <div class="cart__foot" id="cartFoot" style="display:none">
+    <div class="cart__lines">
+      <div><span>Subtotal</span><b id="cartSubtotal">0 DH</b></div>
+      <div><span>Delivery</span><b id="cartShipping">—</b></div>
+      <div><span>Total</span><b id="cartTotal">0 DH</b></div>
+    </div>
+    <button class="btn btn--wa btn--block" id="cartCheckout" type="button">
+      <svg class="btn__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/><path d="M8.6 9.2c.3 1.9 2.4 4 4.4 4.4l1-1.2 1.7.9a4.6 4.6 0 0 1-2.6 1.1"/></svg>
+      Order via WhatsApp
+    </button>
+    <p class="cart__note">Your order opens in WhatsApp with everything pre-written — Soukaina confirms availability, colour and the exact delivery cost before payment.</p>
+  </div>
+</aside>
+
+<!-- ============================== FLOATING ============================== -->
+<button class="totop" id="toTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+  <span>Added to cart</span>
+</div>
+
+<script src="data.js"></script>
+<script src="cart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
